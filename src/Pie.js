@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {Platform} from 'react-native';
-import {Surface, Shape, Path, Group} from '@react-native-community/art';
+import {Surface, Shape, Path, Group} from 'react-native-svg';
 
 function createPath(cx, cy, r, startAngle, arcAngle, isBezian, innerRadius) {
   const p = new Path();
